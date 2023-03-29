@@ -1,0 +1,49 @@
+img {
+    width: 250px;
+    border-radius: 75%;
+}
+
+/* .whole {
+    display: grid;
+    grid-template-areas: none;
+
+}
+
+
+.one {
+    grid-area: header;
+}
+
+.two {
+    grid-area: main;
+}
+
+.three {
+    grid-area: footer;
+}
+
+.four {
+    grid-area: sidebar;
+} */
+
+
+
+/* section {
+    border-style: double;  
+}
+
+article {
+text-align: center;
+} */
+
+/* .flex-container {
+    display: flex;
+    flex-direction: row;
+
+    padding: 0;
+    margin-top: 150px;
+}
+
+.item {
+    flex: auto;
+} */
