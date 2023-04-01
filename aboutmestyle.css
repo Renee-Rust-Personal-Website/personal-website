@@ -1,5 +1,5 @@
 html {
-  background-color: tan transparent;
+  background-color: rgb(248, 243, 236);
 }
 
 img {
@@ -68,4 +68,6 @@ ul {
     padding: 8px;
 }
 
-
+.one {
+  float:right
+}
