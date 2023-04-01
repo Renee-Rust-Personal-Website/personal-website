@@ -5,6 +5,7 @@ html {
 article {
   text-align: center;
   margin-bottom: 25px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 ul {
@@ -13,12 +14,12 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: rgb(93, 93, 93);
-  }
-  
+  } 
   li {
     float: left;
   }
-  
+
+
   li a {
     display: block;
     color: white;
@@ -26,11 +27,10 @@ ul {
     padding: 14px 16px;
     text-decoration: none;
   }
-  
   li a:hover {
     background-color: rgb(124, 113, 205);
   }
 
-  .one {
-    float:right
-  }
+.one {
+  float:right
+}
