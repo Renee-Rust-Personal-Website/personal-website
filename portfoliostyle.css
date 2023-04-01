@@ -1,5 +1,5 @@
 html {
-  background-color: tan transparent;
+  background-color: rgb(248, 243, 236);
 }
 
 article {
@@ -29,4 +29,8 @@ ul {
   
   li a:hover {
     background-color: rgb(124, 113, 205);
+  }
+
+  .one {
+    float:right
   }
