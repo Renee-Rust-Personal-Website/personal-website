@@ -3,13 +3,13 @@
   padding: 0;
 }
 
-body {
+  body {
   aspect-ratio: 960/300;
   width: 100%;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: fixed;
   background-size: cover;
-  background-image: url('lay');
+  background-image: url('waves.svg');
 }
 
 .grid {
