@@ -1,39 +1,69 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  aspect-ratio: 960/300;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-image: url('lay');
+}
+
 .grid {
     display: grid; 
-    grid-template-columns: 1fr 1fr 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
     grid-template-rows: 1fr 1fr 1.8fr 0.2fr; 
     gap: 0.5rem 0.5rem; 
     grid-template-areas: 
-      "Intro Intro Intro"
-      "Content-1 Content-2 Content-3"
-      "Content-1 Content-2 Content-3"
-      "Footer Footer Footer"; 
+      ". Intro Intro Intro ."
+      ". Content-1 Content-2 Content-2 ."
+      ". Content-1 Content-3 Content-3 ."
+      ". Footer Footer Footer ."; 
     justify-content: center;
   }
 
   .Intro { 
     grid-area: Intro;
-    background-color: blue;
+    background-color: transparent;
     justify-self: center;
-
 }
 
   .Content-1 { 
     grid-area: Content-1;
-    background-color: blueviolet;
+    background-color: transparent;
 }
 
   .Content-2 { 
     grid-area: Content-2; 
-    background-color: coral;
+    background-color: transparent;
 }
 
   .Content-3 { 
     grid-area: Content-3; 
-    background-color: darkgreen;
+    background-color: transparent;
 }
 
   .Footer { 
     grid-area: Footer; 
-    background-color: darksalmon;
+    background-color: transparent;
+}
+
+
+h1 {
+  margin-top: 15px;
+  font-size: 80px;
+  font-family: Courier New, monospace;
+  font-style: oblique;
+  font-variant: small-caps;
+  font-stretch: semi-expanded;
+  color: #ffe15c;
+}
+
+p {
+  font-family: monospace;
+  font-size: 24px;
+  color: #ffa5a0;
 }
