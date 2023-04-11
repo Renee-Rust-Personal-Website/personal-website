@@ -1,0 +1,42 @@
+.grid {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1.8fr 0.2fr; 
+    gap: 0.5rem 0.5rem; 
+    grid-template-areas: 
+      ". Intro Intro Intro ."
+      ". Content-1 Content-2 Content-2 ."
+      ". Content-1 Content-3 Content-3 ."
+      ". Footer Footer Footer ."; 
+    justify-content: center;
+  }
+
+  .Intro { 
+    grid-area: Intro;
+    background-color: transparent;
+    justify-self: center;
+}
+
+  .Content-1 { 
+    grid-area: Content-1;
+    background-color: transparent;
+}
+
+  .Content-2 { 
+    grid-area: Content-2; 
+    background-color: transparent;
+}
+
+  .Content-3 { 
+    grid-area: Content-3; 
+    background-color: transparent;
+    margin-top: 4rem;
+    justify-self: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+  .Footer { 
+    grid-area: Footer; 
+    background-color: transparent;
+}
