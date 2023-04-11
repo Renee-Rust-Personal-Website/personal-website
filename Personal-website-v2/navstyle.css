@@ -4,9 +4,10 @@
   }
 
 body {
-    aspect-ratio: 960/300;
+    aspect-ratio: 960/360;
   width: 100%;
   background-repeat: no-repeat;
+  background-color: #1e1e1e;
   background-position: fixed;
   background-size: cover;
   background-image: url('waves.svg');
