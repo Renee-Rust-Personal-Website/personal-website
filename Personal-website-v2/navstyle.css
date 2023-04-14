@@ -3,7 +3,7 @@
     padding: 0;
   }
 
-body {
+html {
     aspect-ratio: 960/360;
   width: 100%;
   background-repeat: no-repeat;

@@ -1,7 +1,12 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
 .grid {
     display: grid; 
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
-    grid-template-rows: 1fr 1fr 1.8fr 0.2fr; 
+    grid-template-rows: 0.1fr 0.12fr 1fr 0.1fr; 
     gap: 0.5rem 0.5rem; 
     grid-template-areas: 
       ". Intro Intro Intro ."
@@ -14,32 +19,50 @@
   .Intro { 
     grid-area: Intro;
     background-color: transparent;
-    justify-self: center;
 }
 
   .Content-1 { 
     grid-area: Content-1;
-    background-color: transparent;
-
+    background-image: url(aboutmeimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 325px;
+    height: 225px;
 }
 
   .Content-2 { 
     grid-area: Content-2; 
     background-color: transparent;
+    color: #e3d5c1;
+    text-align: center;
+    font-family: Courier New, monospace;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-stretch: semi-expanded;
 }
 
   .Content-3 { 
     grid-area: Content-3; 
     background-color: transparent;
+    color: #e3d5c1;
+    font-family: Courier New, monospace;
 
+}
+
+p.indent {
+  text-indent: 20px;
 }
 
   .Footer { 
     grid-area: Footer; 
     background-color: transparent;
-}
-
-.selfie {
-  width: 35px;
-  height: 35px;
+    text-align: center;
+    justify-self: stretch;
+    color: #e3d5c1;
+    text-align: center;
+    font-family: Courier New, monospace;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-stretch: semi-expanded;
+    margin-top: 25%;
 }
