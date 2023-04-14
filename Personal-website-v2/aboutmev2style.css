@@ -35,17 +35,14 @@
     background-color: transparent;
     color: #e3d5c1;
     text-align: center;
-    font-family: Courier New, monospace;
-    font-style: oblique;
-    font-variant: small-caps;
-    font-stretch: semi-expanded;
+    font-family: monospace;
 }
 
   .Content-3 { 
     grid-area: Content-3; 
     background-color: transparent;
     color: #e3d5c1;
-    font-family: Courier New, monospace;
+    font-family: monospace;
 
 }
 
@@ -64,5 +61,5 @@ p.indent {
     font-style: oblique;
     font-variant: small-caps;
     font-stretch: semi-expanded;
-    margin-top: 25%;
+    margin-top: 32%;
 }
