@@ -4,13 +4,13 @@ Block 12: Unit 1 Career Simulation: Personal Website Pt II
 
 Will display a personal website containing 4 html files:
 - Hompage
-      Has two paths to the "Contact Me" page via Navbar or button.
+      / Has two paths to the "Contact Me" page via Navbar or button.
 - About Me
-      Consists of self image and bio.
+      / Consists of self image and bio.
 - Profolio
-      Displays 6 cards with more advanced CSS features.
+      / Displays 6 cards with more advanced CSS features.
 - Contact Me
-      On the "Contact Me" page, there will be an interactive forum for the user to submit contact information.
+      / On the "Contact Me" page, there will be an interactive forum for the user to submit contact information.
 
 All pages have been linked together by the constant CSS file "navstyle.css". Giving the user the ability to navigate between pages or check out the hyperlinked social media accounts. 
 
