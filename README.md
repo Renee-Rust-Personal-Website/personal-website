@@ -8,7 +8,7 @@ Will display a personal website containing 4 html files:
 - About Me
       / Consists of self image and bio.
 - Profolio
-      / Displays 6 cards with more advanced CSS features.
+      / Displays 6 cards with brief overview and links to personal projects.
 - Contact Me
       / On the "Contact Me" page, there will be an interactive forum for the user to submit contact information.
 
