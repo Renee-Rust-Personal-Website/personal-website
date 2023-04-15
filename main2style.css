@@ -1,0 +1,108 @@
+.grid {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 1fr 1fr 1.8fr 0.2fr; 
+    gap: 0.5rem 0.5rem; 
+    grid-template-areas: 
+      ". Intro Intro Intro ."
+      ". Content-1 Content-2 Content-2 ."
+      ". Content-1 Content-3 Content-3 ."
+      ". Footer Footer Footer ."; 
+    justify-content: center;
+  }
+
+  .Intro { 
+    grid-area: Intro;
+    background-color: transparent;
+    justify-self: center;
+}
+
+  .Content-1 { 
+    grid-area: Content-1;
+    background-color: transparent;
+}
+
+  .Content-2 { 
+    grid-area: Content-2; 
+    background-color: transparent;
+}
+
+  .Content-3 { 
+    grid-area: Content-3; 
+    background-color: transparent;
+    margin-top: 4rem;
+    justify-self: center;
+    grid-column-start: 3;
+    grid-column-end: 4;
+}
+
+  .Footer { 
+    grid-area: Footer; 
+    background-color: transparent;
+}
+
+h1 {
+  margin-top: 15px;
+  font-size: 80px;
+  font-family: Courier New, monospace;
+  font-style: oblique;
+  font-variant: small-caps;
+  font-stretch: semi-expanded;
+  color: #ffe15c;
+}
+
+p {
+  font-family: monospace;
+  font-size: 24px;
+  color: #ffa5a0;
+}
+
+button {
+  align-items: center;
+  background-color: #f0b0ac;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  display: flex;
+  font-family: Inter,sans-serif;
+  font-size: 16px;
+  height: 48px;
+  justify-content: center;
+  line-height: 24px;
+  max-width: 100%;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+}
+
+button:after {
+  background-color: rgb(70, 69, 69);
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+button:hover:after {
+  transform: translate(0, 0);
+}
+
+button:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+button:hover {
+  outline: 0;
+}

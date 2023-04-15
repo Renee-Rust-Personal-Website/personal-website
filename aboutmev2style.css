@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.grid {
+    display: grid; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr; 
+    grid-template-rows: 0.1fr 0.12fr 1fr 0.1fr; 
+    gap: 0.5rem 0.5rem; 
+    grid-template-areas: 
+      ". Intro Intro Intro ."
+      ". Content-1 Content-2 Content-2 ."
+      ". Content-1 Content-3 Content-3 ."
+      ". Footer Footer Footer ."; 
+    justify-content: center;
+  }
+
+  .Intro { 
+    grid-area: Intro;
+    background-color: transparent;
+}
+
+  .Content-1 { 
+    grid-area: Content-1;
+    background-image: url(aboutmeimg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 325px;
+    height: 225px;
+}
+
+  .Content-2 { 
+    grid-area: Content-2; 
+    background-color: transparent;
+    color: #e3d5c1;
+    text-align: center;
+    font-family: monospace;
+}
+
+  .Content-3 { 
+    grid-area: Content-3; 
+    background-color: transparent;
+    color: #e3d5c1;
+    font-family: monospace;
+
+}
+
+p.indent {
+  text-indent: 20px;
+}
+
+  .Footer { 
+    grid-area: Footer; 
+    background-color: transparent;
+    text-align: center;
+    justify-self: stretch;
+    color: #e3d5c1;
+    text-align: center;
+    font-family: Courier New, monospace;
+    font-style: oblique;
+    font-variant: small-caps;
+    font-stretch: semi-expanded;
+    margin-top: 32%;
+}

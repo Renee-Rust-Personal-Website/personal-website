@@ -1,0 +1,32 @@
+form {
+  width: 550px;
+  margin: 0 auto;
+  padding: 25px;
+  background-color: rgb(153, 153, 153);
+  border: 1px solid rgb(37, 38, 39);
+  border-radius: 15px;
+}
+
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
+  width: 95%;
+  border-radius: 5px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: rgb(232, 160, 191);
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 13px;
+}
+
+input[type="submit"]:hover {
+  background-color: rgb(243, 223, 92);
+}
