@@ -2,6 +2,8 @@
 
 Block 12: Unit 1 Career Simulation: Personal Website Pt II
 
+**Start on "Main2.0.html"**
+
 Will display a personal website containing 4 html files:
 - Hompage
       / Has two paths to the "Contact Me" page via Navbar or button.
